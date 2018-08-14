@@ -25,20 +25,20 @@ class Stars extends Component {
 
   clearStage = () => {
     let clearTl= new TimelineMax();
-
+    const starsRef = [ this.state.star1.current, this.state.star2.current ]
     clearTl
-            .set(this.state.star1.current, {autoAlpha: 0})
-            .set(this.state.star2.current, {autoAlpha: 0})
+            .set(starsRef, {autoAlpha: 0})
             ;
     return clearTl
   }
 
   enterStar = () => {
     let starTl= new TimelineMax();
+    const starsRef = [ this.state.star1.current, this.state.star2.current ]
     starTl
 
-          .fromTo(this.state.star1.current, 1, {autoAlpha:0, y:0}, {autoAlpha: 1, y:20})
-          .fromTo(this.state.star2.current, 1, {autoAlpha:0, y:0}, {autoAlpha: 1, y:20})
+          .fromTo(starsRef, 1, {autoAlpha:0, y:0}, {autoAlpha: 1, y:20})
+          ;
     return starTl
   }
 
