@@ -1,0 +1,12 @@
+.nameTitleContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  color: pink;
+}
+
+.title {
+  color: red;
+}

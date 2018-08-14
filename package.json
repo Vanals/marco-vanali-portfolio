@@ -90,5 +90,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "react-css-modules": "^4.7.6"
   }
 }
