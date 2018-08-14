@@ -1,14 +1,4 @@
-$nameColor: tomato;
-
-.nameTitleContainer {
+.container {
   display: flex;
   flex-direction: row;
-}
-
-.name {
-  color: $nameColor;
-}
-
-.title {
-  color: red;
 }

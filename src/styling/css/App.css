@@ -1,9 +1,3 @@
-.nameTitleContainer {
+.container {
   display: flex;
   flex-direction: row; }
-
-.name {
-  color: tomato; }
-
-.title {
-  color: red; }
