@@ -1,4 +1,13 @@
-.star {
-  stroke: rgba(255, 255, 255, 0.51);
-  stroke-width: 5px;
-}
+#starSvg1 {
+  position: absolute;
+  left: 50px; }
+
+#starSvg2 {
+  position: absolute;
+  left: 500px;
+  top: 200px; }
+
+.circle {
+  stroke: rgba(255, 255, 255, 0.56);
+  stroke-width: 4px;
+  fill: white; }
