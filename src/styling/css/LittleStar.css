@@ -4,8 +4,53 @@
 
 #starSvg2 {
   position: absolute;
-  left: 500px;
+  left: 100px;
   top: 200px; }
+
+#starSvg3 {
+  position: absolute;
+  left: 200px;
+  top: 400px; }
+
+#starSvg4 {
+  position: absolute;
+  left: 220px;
+  top: 450px; }
+
+#starSvg5 {
+  position: absolute;
+  left: 250px;
+  top: 800px; }
+
+#starSvg6 {
+  position: absolute;
+  left: 300px;
+  top: 700px; }
+
+#starSvg7 {
+  position: absolute;
+  left: 325px;
+  top: 100px; }
+
+#starSvg8 {
+  position: absolute;
+  left: 350px;
+  top: 150px; }
+
+#starSvg9 {
+  position: absolute;
+  left: 375px;
+  top: 300px; }
+
+#starSvg10 {
+  position: absolute;
+  left: 40px;
+  top: 500px; }
+
+#starSvg11 {
+  position: absolute;
+  left: 420px;
+  top: 700px; }
 
 .circle {
   stroke: rgba(255, 255, 255, 0.56);

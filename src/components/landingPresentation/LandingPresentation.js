@@ -8,7 +8,6 @@ class LandingPresentation extends Component {
     return (
       <section className={styles.sectionContainer}>
         <Stars />
-        <h1 className={styles.name}>Marco Vanali</h1>
       </section>
     );
   }
